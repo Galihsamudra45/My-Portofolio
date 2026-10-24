@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with subtle glow -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="10 6" opacity="0.4" />
+
+  <!-- Person Illustration -->
+  <g filter="url(#shadow)">
+    <!-- Shoulders / Blazer -->
+    <path d="M 90 380 C 100 290 140 260 200 260 C 260 260 300 290 310 380 Z" fill="url(#suitGrad)" />
+    <!-- Shirt Collar -->
+    <path d="M 175 260 L 200 310 L 225 260 Z" fill="#ffffff" />
+    <!-- Tie -->
+    <path d="M 194 280 L 206 280 L 210 350 L 200 370 L 190 350 Z" fill="#2563eb" />
+    <!-- Neck -->
+    <path d="M 175 220 L 225 220 L 220 270 L 180 270 Z" fill="#fdba74" />
+    
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="65" ry="75" fill="url(#skinGrad)" />
+    
+    <!-- Hair Modern Cut -->
+    <path d="M 135 170 C 130 110 160 85 200 85 C 245 85 270 110 265 170 C 255 140 240 120 200 120 C 160 120 145 140 135 170 Z" fill="#1e1b4b" />
+    <!-- Front Hair Fringe -->
+    <path d="M 140 140 C 160 115 220 115 255 135 C 235 130 180 130 140 140 Z" fill="#312e81" />
+    
+    <!-- Ears -->
+    <ellipse cx="132" cy="185" rx="10" ry="16" fill="#fed7aa" />
+    <ellipse cx="268" cy="185" rx="10" ry="16" fill="#fed7aa" />
+
+    <!-- Glasses Frame -->
+    <rect x="150" y="165" width="42" height="28" rx="8" fill="none" stroke="#0f172a" stroke-width="4" />
+    <rect x="208" y="165" width="42" height="28" rx="8" fill="none" stroke="#0f172a" stroke-width="4" />
+    <path d="M 192 178 L 208 178" stroke="#0f172a" stroke-width="4" />
+    <path d="M 135 175 L 150 176" stroke="#0f172a" stroke-width="3" />
+    <path d="M 250 176 L 265 175" stroke="#0f172a" stroke-width="3" />
+
+    <!-- Eyes (behind glasses) -->
+    <circle cx="171" cy="179" r="4" fill="#0f172a" />
+    <circle cx="229" cy="179" r="4" fill="#0f172a" />
+
+    <!-- Friendly Smile -->
+    <path d="M 185 218 Q 200 232 215 218" fill="none" stroke="#9a3412" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+</svg>
+

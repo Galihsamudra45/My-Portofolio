@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" fill="url(#p4Bg)" rx="12" />
+
+  <g transform="translate(40, 30)">
+    <!-- Browser Card -->
+    <rect width="520" height="320" rx="8" fill="#ffffff" />
+    <!-- Header -->
+    <rect width="520" height="40" rx="8" fill="#f8fafc" />
+    <circle cx="20" cy="20" r="5" fill="#ef4444" />
+    <circle cx="36" cy="20" r="5" fill="#f59e0b" />
+    <circle cx="52" cy="20" r="5" fill="#10b981" />
+    <rect x="75" y="12" width="260" height="16" rx="4" fill="#e2e8f0" />
+
+    <!-- Navbar -->
+    <rect x="25" y="55" width="60" height="16" rx="3" fill="#047857" />
+    <rect x="360" y="58" width="40" height="10" rx="2" fill="#64748b" />
+    <rect x="415" y="58" width="40" height="10" rx="2" fill="#64748b" />
+    <rect x="470" y="54" width="30" height="18" rx="4" fill="#10b981" />
+
+    <!-- Hero Content -->
+    <rect x="25" y="90" width="240" height="18" rx="3" fill="#0f172a" />
+    <rect x="25" y="115" width="220" height="18" rx="3" fill="#0f172a" />
+    <rect x="25" y="142" width="200" height="10" rx="2" fill="#64748b" />
+    <rect x="25" y="158" width="180" height="10" rx="2" fill="#64748b" />
+    <rect x="25" y="180" width="90" height="26" rx="6" fill="#047857" />
+
+    <!-- Hero Illustration Right -->
+    <rect x="290" y="85" width="205" height="125" rx="8" fill="#ecfdf5" stroke="#a7f3d0" />
+    <circle cx="392" cy="135" r="30" fill="#10b981" opacity="0.2" />
+    <path d="M 330 170 L 370 120 L 410 145 L 460 100" fill="none" stroke="#059669" stroke-width="4" stroke-linecap="round" />
+
+    <!-- 3 Service Cards -->
+    <rect x="25" y="225" width="150" height="80" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <circle cx="45" cy="245" r="10" fill="#d1fae5" />
+    <rect x="62" y="240" width="70" height="10" rx="2" fill="#1e293b" />
+    <rect x="45" y="262" width="110" height="6" rx="2" fill="#94a3b8" />
+    <rect x="45" y="274" width="90" height="6" rx="2" fill="#94a3b8" />
+
+    <rect x="185" y="225" width="150" height="80" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <circle cx="205" cy="245" r="10" fill="#dbeafe" />
+    <rect x="222" y="240" width="70" height="10" rx="2" fill="#1e293b" />
+    <rect x="205" y="262" width="110" height="6" rx="2" fill="#94a3b8" />
+    <rect x="205" y="274" width="90" height="6" rx="2" fill="#94a3b8" />
+
+    <rect x="345" y="225" width="150" height="80" rx="6" fill="#f8fafc" stroke="#e2e8f0" />
+    <circle cx="365" cy="245" r="10" fill="#fef3c7" />
+    <rect x="382" y="240" width="70" height="10" rx="2" fill="#1e293b" />
+    <rect x="365" y="262" width="110" height="6" rx="2" fill="#94a3b8" />
+    <rect x="365" y="274" width="90" height="6" rx="2" fill="#94a3b8" />
+  </g>
+</svg>
+
